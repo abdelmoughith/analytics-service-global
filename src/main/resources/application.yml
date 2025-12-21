@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: analytics-service
+
+  config:
+    import: "configserver:http://localhost:8888"
+
+ai-service:
+  url: http://localhost:8000
