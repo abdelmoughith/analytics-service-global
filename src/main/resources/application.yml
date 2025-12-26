@@ -8,4 +8,5 @@ spring:
     import: "configserver:http://config-server:8888"
 
 ai-service:
-  url: http://localhost:8000
+  url: http://edupath-ml:8000
+
