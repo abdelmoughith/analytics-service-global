@@ -3,7 +3,9 @@ spring:
     name: analytics-service
 
   config:
-    import: "configserver:http://localhost:8888"
+    #import: "configserver:http://localhost:8888"
+    # for inside docker
+    import: "configserver:http://config-server:8888"
 
 ai-service:
   url: http://localhost:8000
